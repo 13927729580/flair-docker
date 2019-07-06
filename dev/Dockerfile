@@ -23,7 +23,10 @@ COPY settings-docker.xml /usr/share/maven/ref/
 
 RUN chmod +x /usr/local/bin/mvn-entrypoint.sh
 
+VOLUME app
+
 USER flairuser
 
+WORKDIR /app
 ENTRYPOINT ["/usr/local/bin/mvn-entrypoint.sh"]
 CMD ["mvn"]

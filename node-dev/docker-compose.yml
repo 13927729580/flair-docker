@@ -4,5 +4,5 @@ services:
   builder:
     build:
       context: .
-    image: flairbi/flair-java-dev
+    image: flairbi/flair-node-dev
    

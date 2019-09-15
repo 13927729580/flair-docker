@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  builder:
+    build:
+      context: .
+    image: flairbi/flair-node-base

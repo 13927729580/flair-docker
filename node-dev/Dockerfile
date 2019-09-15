@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:8
 
 RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz && \
     tar xvf wkhtmltox*.tar.xz && \

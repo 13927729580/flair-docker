@@ -4,5 +4,4 @@ services:
   builder:
     build:
       context: .
-    image: flairbi/flair-node-dev
-   
+    image: flairbi/flair-notification-dev
